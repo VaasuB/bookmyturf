@@ -1,0 +1,76 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+
+# testing
+coverage/
+*.lcov
+
+# production
+build/
+dist/
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# local npm cache
+.npm/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS generated files
+*.swp
+.sass-cache/
+*.pid
+*.seed
+*.backup
+
+# Optional npm cache
+.pnpm-store/
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache/
+
+# Project files
+.project
+.classpath
+
+# Webpack files
+.cache-loader/
+.parcel-cache/
+
+# VS Code settings
+.vscode/
+
+# Svelte files
+__sapper__/
+.svelte/
+.svelte-kit/
+*.svelte
+
+.node_modules
+.emv
