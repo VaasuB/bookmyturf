@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VaasuB/bookmyturf.git/static/css/main.1837a589.css",
+    "main.js": "/VaasuB/bookmyturf.git/static/js/main.e18577dd.js",
+    "static/js/453.f3fa11fa.chunk.js": "/VaasuB/bookmyturf.git/static/js/453.f3fa11fa.chunk.js",
+    "index.html": "/VaasuB/bookmyturf.git/index.html",
+    "main.1837a589.css.map": "/VaasuB/bookmyturf.git/static/css/main.1837a589.css.map",
+    "main.e18577dd.js.map": "/VaasuB/bookmyturf.git/static/js/main.e18577dd.js.map",
+    "453.f3fa11fa.chunk.js.map": "/VaasuB/bookmyturf.git/static/js/453.f3fa11fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1837a589.css",
+    "static/js/main.e18577dd.js"
+  ]
+}
