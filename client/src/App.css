@@ -1,0 +1,239 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: black;
+  /* Dark gray navbar */
+}
+
+.conatainernav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#sitetitle {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navitems {
+  list-style-type: none;
+  display: flex;
+  padding-top: 11px;
+  text-align: left;
+}
+
+.navitem {
+  margin-right: 15px;
+}
+
+.navlink {
+  color: #4ef037;
+  text-decoration: none;
+}
+
+/* Title styles */
+#titlediv {
+  background-color: #20262e;
+  height: 20px;
+  color: #000;
+}
+
+.searchbar {
+  margin-left: 980px;
+  margin-right: 10px;
+}
+
+/* Card container styles */
+#cardsbackground1 {
+  background-color: white;
+  padding: 20px;
+}
+
+#cardsbackground2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#filterhead {
+  padding-top: 20px;
+}
+
+#filters1 {
+  flex: 0 0 auto;
+  width: 200px;
+  background-color: #f5f5f5;
+  padding-left: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#cardscontainer {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding-top: 10px;
+  padding-left: 50px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.custom-button:hover,
+.custom-button:focus {
+  background-color: #000;
+  border-color: #4ef037;
+}
+
+.custom-button {
+  background-color: #4ef037;
+  border-color: #000;
+  border-width: 2px;
+  color: #000;
+}
+
+.custom-button:hover,
+.custom-button:focus {
+  background-color: #000;
+  border-color: #000;
+  color: #000;
+}
+
+/* User icon container styles */
+.avatar-container {
+  margin-left: auto; /* Pushes the avatar to the right */
+  background-color: #ccc; /* Gray background color */
+  padding: 4px; /* Add padding for space around the icon */
+  border-radius: 50%;
+}
+
+.navbar .conatainernav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar-link {
+  margin-left: auto; /* Ensures the avatar is aligned to the right */
+}
+
+
+
+
+
+
+/* filtersection */
+.filter-section {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.filter-section h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.filter-option {
+  margin-bottom: 15px;
+}
+
+.filter-option label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+.price-input {
+  display: flex;
+  align-items: center;
+}
+
+.ant-select-dropdown {
+  max-height: 200px; /* Adjust this value as needed */
+  overflow-y: auto;
+}
+
+.ant-select-dropdown-menu-item {
+  padding: 8px 12px;
+}
+
+.ant-select-dropdown-menu-item-active,
+.ant-select-dropdown-menu-item-selected {
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.ant-select-dropdown-menu-item:hover {
+  background-color: #e6f7ff;
+}
+.filter-section {
+padding: 20px;
+}
+
+.filter-section h2 {
+margin-bottom: 20px;
+}
+
+.filter-option {
+margin-bottom: 20px;
+}
+
+.filter-option label {
+display: block;
+margin-bottom: 5px;
+}
+
+.filter-option select {
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.filter-section {
+padding: 20px;
+background-color: #f8f9fa;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-option {
+margin-bottom: 20px;
+}
+
+.filter-option label {
+margin-right: 10px;
+}
+
+.filter-option select {
+padding: 5px;
+border-radius: 4px;
+border: 1px solid #ccc;
+}
+
+button {
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+background-color: #007bff;
+color: white;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #0056b3;
+}
